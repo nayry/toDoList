@@ -1,38 +1,59 @@
+body {
+  background-color: #eeeeee;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.addList {
+  background: #2f3640;
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translate(-50%,0%);
+  display: block;
+  height: 50px;
+  border-radius: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.lists{
+  position: relative;
+  top: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.addList button{
+  color: #e84118;
+  float: right;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #2f3640;
+}
+
+.addList button:focus {
+  outline: none;
+}
+
+.addList input{
+  border: none;
+  background: none;
+  margin-left: 10px;
+  outline: none;
+  float: left;
   color: white;
+  transition: 0.4s;
+  line-height: 50px;
+  width: 240;
 }
 
-.App-link {
-  color: #61dafb;
+.addList a:hover > .addList input{
+  width: 240px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a span{
+  padding-top: 20px;
+  padding-left: 5px;
 }

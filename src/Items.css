@@ -1,0 +1,27 @@
+.item {
+  color: #ffffff;
+  width: 250px;
+  background-color: #876543;
+  margin: 15px auto;
+  border-radius: 6px;
+  border: 0;
+  padding: 0;
+}
+
+.itemText {
+  padding: 0;
+  border: 0;
+  margin: 8px;
+  color: #ffffff;
+  background-color: #876543;
+}
+
+input[type=checkbox] {
+  transform: scale(1);
+}
+
+#item {
+  color: #ffffff;
+  right: -10px;
+  cursor: pointer;
+}

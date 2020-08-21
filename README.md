@@ -1,5 +1,8 @@
 This is a To Do List React App that can add, delete, modify multiple lists and items. It uses Web Storage API to store the data so that the data is not lost on page refresh.
 
+Click the following URL to view this app.
+
+https://nayry.github.io/toDoList/
 
 ## Available Scripts
 

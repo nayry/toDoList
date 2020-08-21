@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a To Do List React App that can add, delete, modify multiple lists and items. It uses Web Storage API to store the data so that the data is not lost on page refresh.
+
 
 ## Available Scripts
 
